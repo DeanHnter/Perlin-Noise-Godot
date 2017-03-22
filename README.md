@@ -20,6 +20,8 @@ As this script only generates the heightmap i.e doesent apply the image to a ter
 is required to apply the image to the terrain. I recommend [TheHX's heightmap.gd script](https://gist.github.com/TheHX/94a83dea1a0f932d5805)
 
 #### Contributions
+A special thanks to the godot forum community for their performance suggestions.
+
 Contributions to the script are always welcome, just submit a pull-request.
 
 #### Screenshot:
