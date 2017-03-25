@@ -2,8 +2,8 @@ tool
 extends ImageTexture
 # member variables here, example:
 export(int,1,100) var octave= 5 setget set_octave, get_octave
-export(int,1,512) var width= 200 setget set_width, get_width
-export(int,1,512) var height= 200 setget set_height, get_height
+export(int,1,512) var width= 256 setget set_width, get_width
+export(int,1,512) var height= 256 setget set_height, get_height
 
 func _init():
 	createPerlinNoise()
