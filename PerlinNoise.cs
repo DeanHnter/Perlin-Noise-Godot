@@ -22,6 +22,7 @@ namespace DarkBoxEngine
             this.height = height;
             this.Noise = new double[width, height];
             this.octave = octave;
+            randomNoise();
         }
 
         private double[,] randomNoise()
@@ -39,13 +40,13 @@ namespace DarkBoxEngine
             return Noise;
         }
 
-        private double[] smoothNoise()
+        private double[][,] smoothNoise()
         {
-            double[,] smoothNoise = new double[width, height];
+            double[][,] smoothNoise = new double[octave][,];
 
             for (int i = 0; i < octave; i++)
             {
-                smoothNoise[i] = new double[][]{ GenerateSmoothNoise(Noise)};
+                smoothNoise[i] =  GenerateSmoothNoise(Noise) ;
             }
 
             return smoothNoise;
