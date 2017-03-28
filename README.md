@@ -24,5 +24,9 @@ A special thanks to the godot forum community for their performance suggestions.
 
 Contributions to the script are always welcome, just submit a pull-request.
 
+#### Implementations - Must Read
+Whilst the godot implementation is functional and complete, the CSharp version is currently a work in progress as such
+it currently only outputs a 2D array.
+
 #### Screenshot:
 ![Image of icon](https://github.com/deanhu2/Perlin-Noise-Godot/blob/master/screenshot.png)
