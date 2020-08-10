@@ -24,10 +24,11 @@ below on a simple way to add the heightmap to a meshInstance.
 As this script only generates the heightmap i.e doesent apply the image to a terrain another script
 is required to apply the image to the terrain. I recommend [TheHX's heightmap.gd script](https://gist.github.com/TheHX/94a83dea1a0f932d5805)
 
-#### Contributions
+## Contributions
 A special thanks to the godot forum community for their performance suggestions.
 
-Contributions to the script are always welcome, just submit a pull-request.
+Contributions to the script are always welcome, just submit a pull-request after reading the guideline:
+[Guideline](https://github.com/DHunte/Perlin-Noise-Godot/blob/master/CONTRIBUTING.md)
 
 #### Implementations - Must Read
 Whilst the godot implementation is functional and complete, the CSharp version is currently a work in progress as such
