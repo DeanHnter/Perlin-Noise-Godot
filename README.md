@@ -1,4 +1,7 @@
 # Perlin-Noise-Godot
+
+Godot natively now supports many types noise : https://docs.godotengine.org/en/stable/classes/class_noise.html. This repository can be considered archived.
+
 This project aims to create a simple script for generating heightmaps in godot.
 
 This godot script generates a heightmap image that can be used for 2D or 3d terrains in godot. This is performed
